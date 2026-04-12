@@ -1,0 +1,12 @@
+body {
+  background-color: rgba(146, 214, 219, 0.822);
+  font-family: "Miranda Sans", sans-serif;
+}
+.weather-app {
+  background-color: rgba(255, 255, 255, 0.801);
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 30px 50px rgba(76, 104, 117, 0.329);
+  border-radius: 15px;
+  padding: 30px;
+}
