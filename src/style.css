@@ -19,9 +19,9 @@ a {
 }
 
 .weather-app {
-  width: 80%;
+  width: 90%;
 
-  max-width: 800px;
+  max-width: 900px;
   padding: 20px;
   background-color: #bfd8d5;
   border: 2px solid #55c9ff;
@@ -116,23 +116,36 @@ h1 {
 }
 
 .weather-forecast {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 0 15px;
+  gap: 16px;
+  padding: 0 10px;
   list-style: none;
   margin-top: 20px;
-  background-color: white;
+  background-color: transparent;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
   margin-left: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.weather-forecast-day {
+  background-color: white;
+  border: 1px solid rgba(48, 146, 179, 0.25);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 8px;
+  min-width: 100px;
+  max-width: 100px;
+  flex: 0 0 40px;
 }
 
 .weather-forecast-date {
   text-align: center;
   color: rgb(46, 103, 112);
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .weather-forecast-icon {
